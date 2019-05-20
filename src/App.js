@@ -122,31 +122,31 @@ class App extends Component {
           <Input>{this.state.input}</Input>
           </div>
           <div className="row">
-          <Button handleClick={this.addToInput}>7</Button>
-          <Button handleClick={this.addToInput}>8</Button>
-          <Button handleClick={this.addToInput}>9</Button>
-          <Button handleClick={this.divide}>/</Button>
+          <Button handleClick={this.addToInput} id='seven'>7</Button>
+          <Button handleClick={this.addToInput} id='eight'>8</Button>
+          <Button handleClick={this.addToInput} id='nine'>9</Button>
+          <Button handleClick={this.divide} id='divide'>/</Button>
           </div>
           <div className="row">
-          <Button handleClick={this.addToInput}>4</Button>
-          <Button handleClick={this.addToInput}>5</Button>
-          <Button handleClick={this.addToInput}>6</Button>
-          <Button handleClick={this.multiply}>*</Button>
+          <Button handleClick={this.addToInput} id='four'>4</Button>
+          <Button handleClick={this.addToInput} id='five'>5</Button>
+          <Button handleClick={this.addToInput} id='six'>6</Button>
+          <Button handleClick={this.multiply} id='times'>*</Button>
           </div>
           <div className="row">
-          <Button handleClick={this.addToInput}>1</Button>
-          <Button handleClick={this.addToInput}>2</Button>
-          <Button handleClick={this.addToInput}>3</Button>
-          <Button handleClick={this.add}>+</Button>
+          <Button handleClick={this.addToInput} id='one'>1</Button>
+          <Button handleClick={this.addToInput} id='two'>2</Button>
+          <Button handleClick={this.addToInput} id='three'>3</Button>
+          <Button handleClick={this.add} id='add'>+</Button>
           </div>
           <div className="row">
-          <Button handleClick={this.addDecimal}>.</Button>
-          <Button handleClick={this.addZeroToInput}>0</Button>
-          <Button handleClick={this.evaluate}>=</Button>
-          <Button handleClick={this.subtract}>-</Button>
+          <Button handleClick={this.addDecimal} id='decimal'>.</Button>
+          <Button handleClick={this.addZeroToInput} id='zero'>0</Button>
+          <Button handleClick={this.evaluate} id='equals'>=</Button>
+          <Button handleClick={this.subtract} id='minus'>-</Button>
           </div>
           <div className="row">
-          <ClearButton handleClear={this.clearInput}>CLEAR</ClearButton>
+          <ClearButton handleClear={this.clearInput} id='clear'>CLEAR</ClearButton>
           </div>
         </div>
       </div>
